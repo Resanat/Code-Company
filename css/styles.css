@@ -70,15 +70,26 @@ body{
     filter: drop-shadow(0.5px 0.866px 1.5px rgba(6,6,6,0.2));
 }
 
+
+
 .contenu_photo{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    border: 1px solid black;
+    height: 512px;
+}
+
+.photo_de_fond{
+    background-image: url(../images/bg-header.jpg);
+    background-position:center;
+    height: 512px;
 }
 
 .titre_xl{
-    margin-top: 40px;
+    margin-top: 128px;
     text-align: center;
+    color: white;
     font-size: 40px;
     font-family: 'robotobold';
 }
@@ -92,7 +103,7 @@ body{
 
  .titre_lg{
     font-family: 'roboto';
-
+    text-align: center;
  }
 
 
