@@ -4,7 +4,12 @@ body{
 }
 
 .container {
+    /*
     margin-inline: max(2rem, 50% - 1240px/2);
+    */
+    max-width: 1240px;
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 .menu{
@@ -76,6 +81,18 @@ body{
     text-align: center;
     font-size: 40px;
     font-family: 'robotobold';
-
-
 }
+
+.contenu_restreint{
+    border: 1px solid black;
+    max-width: 600px;
+    margin-left: auto; 
+    margin-right: auto;
+ }
+
+ .titre_lg{
+    font-family: 'roboto';
+
+ }
+
+
