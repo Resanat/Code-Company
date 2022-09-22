@@ -1,0 +1,10 @@
+body{
+    margin : 0px;
+    padding : 0px;
+}
+
+.image_de_fond{
+    width: 576px;
+    height: 96px;
+    background-color: #093348;
+}
