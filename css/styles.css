@@ -1,0 +1,81 @@
+body{
+    margin : 0px;
+    padding : 0px;
+}
+
+.container {
+    margin-inline: max(2rem, 50% - 1240px/2);
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #093348;
+/*    border: 2px solid red;*/
+}
+
+.barre_menu{
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    font-family: 'robotobold';
+    flex: 0 0 48%;
+    height: 96px;
+    color:white;
+    text-align: center;
+}
+
+.pencil{
+    margin-top: 32px;
+}
+
+.barre_menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'robotobold';
+    padding: 1.5rem;
+}
+
+.barre_menu li:hover{
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+    filter: drop-shadow(0px 1px 1.5px rgba(6,6,6,0.18));
+    background-color: rgba(255,255,255,0.09019607843137255);
+    padding: 10px 0 0 0;
+}
+
+.barre_menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    font-family: 'robotobold';
+    text-align: center;
+}
+
+.barre_menu a:hover{
+    font-size: 17px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    filter: drop-shadow(0.5px 0.866px 1.5px rgba(6,6,6,0.2));
+}
+
+.contenu_photo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.titre_xl{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'robotobold';
+
+
+}
