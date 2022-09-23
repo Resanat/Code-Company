@@ -155,13 +155,11 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid black;
     height: 650px;
     justify-content: center;
 }
 
 .contenu_restreint_baby_faces{
-    border: 2px solid black;
     width: 950px;
 }
 
@@ -173,13 +171,11 @@ body{
     font-weight: 500;
     font-family: "Roboto";
     text-align: center;
-    border:1px solid red;
 }
 
 .item_baby_faces{
     display: inline-block;
     width: 32.75%;
-    border: 1px solid red;
     text-align: center;
 }
 
@@ -206,7 +202,6 @@ body{
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
 }
 
 .footer_baby_faces{
@@ -222,25 +217,23 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid black;
     height: 624px;
     background-color: #3ead87;
     height: 650px;
     justify-content: center;
 }
 
-.titre_portfolio{
+.titre_portfolio, .titre_formulaire{
     margin-top: 76px;
     font-size: 36px;
     color: white;
     font-weight: 500;
     font-family: "Roboto";
     text-align: center;
-    border:1px solid red;
     filter: drop-shadow(0px 1px 1.5px rgba(6,6,6,0.18));
 }
 
-.titre_portfolio2{
+.titre_portfolio2, .titre_formulaire2{
     margin-bottom: 64px;
     font-size: 18px;
     color: #ffffff;
@@ -253,7 +246,6 @@ body{
 .item_portfolio{
     display: inline-block;
     width: 24%;
-    border: 1px solid red;
     text-align: center;
 }
 
@@ -262,7 +254,6 @@ body{
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
 }
 
 .contenu_restreint_portfolio_bouton{
@@ -270,7 +261,7 @@ body{
     height: 30px;
     margin-left: auto; 
     margin-right: auto;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20px;
     text-align: center;
  }
@@ -290,10 +281,108 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid skyblue;
     height: 624px;
     background-color: #223139;
     height: 720px;
     justify-content: center;
 }
 
+.contenu_restreint_formulaire{
+    margin-top: 80px;
+    background-color: white;
+    max-width: 350px;
+    height: 30px;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ .contenu_restreint_formulaire2{
+    margin-bottom: 10px;
+    background-color: white;
+    max-width: 350px;
+    height: 30px;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ .contenu_restreint_formulaire2 input{
+    border: none;
+    margin-top: 6px;
+    font-family: "Roboto";
+    text-align: center;
+ }
+
+ .contenu_restreint_formulaire3{
+    margin-bottom: 10px;
+    background-color: white;
+    max-width: 350px;
+    height: 144px;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 1px white;
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ .contenu_restreint_formulaire3 textarea{
+    border: none;
+    margin-top: 20px;
+    font-family: "Roboto";
+    color: black;
+    text-align: center;
+ }
+
+ .contenu_restreint_formulaire_footer{
+    margin-top: 32px;
+    margin-bottom: 146px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item_formulaire{
+    display: inline-block;
+    width: 49.5%;
+}
+
+.item_formulaire_reseaux{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    height: 50px;
+}
+
+.texte_reseaux_sociaux{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #b4d1e1;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.logo_reseaux_sociaux{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #b4d1e1;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.copyright{
+    font-size: 12px;
+    line-height: 16px;
+    color: #b4d1e1;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    text-align: center;
+}
