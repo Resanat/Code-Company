@@ -216,3 +216,84 @@ body{
     font-family: "Roboto";
     text-align: center;
 }
+
+
+.contenu_portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 624px;
+    background-color: #3ead87;
+    height: 650px;
+    justify-content: center;
+}
+
+.titre_portfolio{
+    margin-top: 76px;
+    font-size: 36px;
+    color: white;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: center;
+    border:1px solid red;
+    filter: drop-shadow(0px 1px 1.5px rgba(6,6,6,0.18));
+}
+
+.titre_portfolio2{
+    margin-bottom: 64px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    filter: drop-shadow(0px 1px 1.5px rgba(6,6,6,0.18));
+}
+
+.item_portfolio{
+    display: inline-block;
+    width: 24%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.contenu_restreint_portfolio_footer{
+    margin-top: 80px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.contenu_restreint_portfolio_bouton{
+    max-width: 275px;
+    height: 30px;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ .text_bouton_portfolio{
+    margin-top: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: center;
+    filter: drop-shadow(0.5px 0.866px 2.5px rgba(6,6,6,0.24));
+    color: white;
+ }
+
+
+ .contenu_formulaire{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid skyblue;
+    height: 624px;
+    background-color: #223139;
+    height: 720px;
+    justify-content: center;
+}
+
