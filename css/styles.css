@@ -7,11 +7,13 @@ body{
     /*
     margin-inline: max(2rem, 50% - 1240px/2);
     */
-    max-width: 1240px;
+    max-width: 1920px;
     margin-left: auto; 
     margin-right: auto; 
 }
 
+
+/* MENU */
 .menu{
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +21,7 @@ body{
     background-color: #093348;
 }
 
-.barre_menu{
+.barre_menu1, .barre_menu2{
     display: flex;
     justify-content: center;
     font-family: 'robotobold';
@@ -33,14 +35,14 @@ body{
     margin-top: 32px;
 }
 
-.barre_menu li{
+.barre_menu2 li{
     display: inline-block;
     text-transform: uppercase;
     font-family: 'robotobold';
     padding: 1.5rem;
 }
 
-.barre_menu li:hover{
+.barre_menu2 li:hover{
     width: 130px;
     height: 40px;
     border-radius: 3px;
@@ -49,7 +51,7 @@ body{
     padding: 10px 0 0 0;
 }
 
-.barre_menu a{
+.barre_menu2 a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -58,7 +60,7 @@ body{
     text-align: center;
 }
 
-.barre_menu a:hover{
+.barre_menu2 a:hover{
     font-size: 17px;
     line-height: 18px;
     text-transform: uppercase;
@@ -69,7 +71,7 @@ body{
 }
 
 
-
+/* PHOTO DE FOND */
 .contenu_photo{
     display: flex;
     flex-direction: column;
@@ -151,12 +153,14 @@ body{
  }
 
 
+ /* contenu baby_faces sur fond BLANC */
  .contenu_baby_faces{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: 650px;
     justify-content: center;
+    border : 2px solid black;
 }
 
 .contenu_restreint_baby_faces{
@@ -212,15 +216,15 @@ body{
     text-align: center;
 }
 
-
+/* PORTFOLIO */
 .contenu_portfolio{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 624px;
     background-color: #3ead87;
     height: 650px;
     justify-content: center;
+    border : 2px solid rosybrown
 }
 
 .titre_portfolio, .titre_formulaire{
@@ -231,6 +235,8 @@ body{
     font-family: "Roboto";
     text-align: center;
     filter: drop-shadow(0px 1px 1.5px rgba(6,6,6,0.18));
+    border : 2px solid rosybrown;
+
 }
 
 .titre_portfolio2, .titre_formulaire2{
@@ -281,7 +287,6 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 624px;
     background-color: #223139;
     height: 720px;
     justify-content: center;
@@ -385,4 +390,119 @@ body{
     font-family: "Roboto";
     text-align: center;
     text-align: center;
+}
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+
+@media screen and (max-width: 1240px){
+
+    .container {
+        /*
+        margin-inline: max(2rem, 50% - 1240px/2);
+        */
+        max-width: 1240px;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+}
+
+
+@media screen and (max-width: 992px){
+
+    .menu{
+        text-align: center;
+        background-color: #093348;
+        border: 1px solid white;
+    }
+    
+    .barre_menu1{
+        flex: 0 0 30%;
+    }
+
+    .barre_menu2{
+        flex: 0 0 70%;
+    }
+
+    .contenu_portfolio{
+        height: 750px;
+    }
+
+    .item_baby_faces{
+        display: inline-block;
+        width: 31%;
+        text-align: center;
+        align-items: center;
+    }
+
+     .item_portfolio{
+        display: inline-block;
+        width: 49%;
+        text-align: center;
+        align-items: center;
+    }
+
+
+@media screen and (max-width: 768px){
+
+    .menu{
+        text-align: center;
+        background-color: #093348;
+        border: 1px solid white;
+    }
+    
+    .barre_menu1{
+        flex: 0 0 10%;
+    }
+
+    .barre_menu2{
+        flex: 0 0 90%;
+    }
+
+    .barre_menu2 li{
+        padding: 0.97rem;
+    }
+
+    .contenu_baby_faces{
+        height: 800px;
+    }
+
+    .item_baby_faces{
+        display: inline-block;
+        width: 32.75%;
+        text-align: center;
+        border : 1px solid blue;
+        align-items: center;
+    }
+
+    .contenu_portfolio{
+        height: 750px;
+    }
+
+     .item_portfolio{
+        display: inline-block;
+        width: 48%;
+        text-align: center;
+        border : 2px solid yellow;
+        align-items: center;
+    }
+
+    .item_baby_faces{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        border : 1px solid blue;
+        align-items: center;
+    }
+
+ 
+    
+
+
+
+
+
+
+    
 }
