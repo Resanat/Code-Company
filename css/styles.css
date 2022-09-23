@@ -17,15 +17,13 @@ body{
     flex-wrap: wrap;
     text-align: center;
     background-color: #093348;
-/*    border: 2px solid red;*/
 }
 
 .barre_menu{
     display: flex;
     justify-content: center;
-    border: 2px solid red;
     font-family: 'robotobold';
-    flex: 0 0 48%;
+    flex: 0 0 50%;
     height: 96px;
     color:white;
     text-align: center;
@@ -76,7 +74,6 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 1px solid black;
     height: 512px;
 }
 
@@ -90,20 +87,132 @@ body{
     margin-top: 128px;
     text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-family: "Roboto";
     font-family: 'robotobold';
 }
 
 .contenu_restreint{
-    border: 1px solid black;
-    max-width: 600px;
+    max-width: 500px;
     margin-left: auto; 
     margin-right: auto;
+    height: 40px;
  }
 
  .titre_lg{
-    font-family: 'roboto';
     text-align: center;
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-family: "Roboto";
+ }
+
+ .barre_lg{
+    color: white;
+    background-repeat: repeat;
+    text-align: center;
+    font-size: 12px;
+ }
+
+ .contenu_restreint_plus{
+    max-width: 500px;
+    margin-left: auto; 
+    margin-right: auto;
+    height: 90px;
+ }
+
+ .titre_pt{
+    font-size: 15px;
+    line-height: 21px;
+    color: #b4d1e1;
+    font-family: "Roboto";
+    text-align: center;
+    filter: drop-shadow(0.5px 0.866px 2.5px rgba(6,6,6,0.24));
+ }
+
+ .contenu_restreint_bouton{
+    max-width: 250px;
+    height: 20px;
+    margin-left: auto; 
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+ }
+
+ .bouton_photo_de_fond{
+    padding-top: 15px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Roboto";
+    text-align: center;
+    filter: drop-shadow(0.5px 0.866px 2.5px rgba(6,6,6,0.24));
  }
 
 
+ .contenu_baby_faces{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 650px;
+    justify-content: center;
+}
+
+.contenu_restreint_baby_faces{
+    border: 2px solid black;
+    width: 950px;
+}
+
+.titre_baby_faces{
+    margin-top: 76px;
+    margin-bottom: 48px;
+    font-size: 36px;
+    color: #0d415c;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: center;
+    border:1px solid red;
+}
+
+.item_baby_faces{
+    display: inline-block;
+    width: 32.75%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.prenom{
+    margin-top: 5px;
+    font-size: 24px;
+    color: #0d415c;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.mission{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #618598;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.contenu_restreint_baby_faces_footer{
+    margin-top: 80px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.footer_baby_faces{
+    font-size: 15px;
+    color: #0d415c;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
