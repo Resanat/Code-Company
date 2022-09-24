@@ -593,15 +593,21 @@ body{
     }
 
     .barre_menu2{
-        flex: 0 0 90%;
+        display: none;
     }
 
-    .barre_menu2 li{
-        padding: 0.97rem;
+    .barre_menu3{
+        display: flex;
+        justify-content: end;
+        flex: 0 0 80%;
+    }
+
+    .logo_menu{
+        margin: 32px 0 0 0;
     }
 
     .contenu_baby_faces{
-        height: 1050px;
+        height: 1100px;
     }
 
     .item_baby_faces{
