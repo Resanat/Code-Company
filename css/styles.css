@@ -27,7 +27,6 @@ body{
     font-family: 'robotobold';
     flex: 0 0 50%;
     height: 96px;
-    color:white;
     text-align: center;
 }
 
@@ -40,6 +39,10 @@ body{
     text-transform: uppercase;
     font-family: 'robotobold';
     padding: 1.5rem;
+}
+
+.barre_menu3{
+    display: none;
 }
 
 .barre_menu2 li:hover{
@@ -160,7 +163,6 @@ body{
     flex-wrap: wrap;
     height: 650px;
     justify-content: center;
-    border : 2px solid black;
 }
 
 .contenu_restreint_baby_faces{
@@ -224,7 +226,6 @@ body{
     background-color: #3ead87;
     height: 650px;
     justify-content: center;
-    border : 2px solid rosybrown
 }
 
 .titre_portfolio, .titre_formulaire{
@@ -235,8 +236,6 @@ body{
     font-family: "Roboto";
     text-align: center;
     filter: drop-shadow(0px 1px 1.5px rgba(6,6,6,0.18));
-    border : 2px solid rosybrown;
-
 }
 
 .titre_portfolio2, .titre_formulaire2{
@@ -364,7 +363,6 @@ body{
 .item_formulaire1, .item_formulaire2{
     display: flex;
     width: 49.5%;
-    border: 1px solid rgb(10, 151, 233);
     justify-content: center;
     gap: 1rem;
 }
@@ -372,7 +370,6 @@ body{
 .item_formulaire_reseaux{
     display: inline-block;
     height: 50px;
-    border: 1px solid greenyellow;
 }
 
 .texte_reseaux_sociaux{
@@ -427,7 +424,6 @@ body{
     .menu{
         text-align: center;
         background-color: #093348;
-        border: 1px solid white;
     }
     
     .barre_menu1{
@@ -452,13 +448,11 @@ body{
     }
 
     .item_formulaire1{
-        border: 1px solid rgb(10, 151, 233);
         gap: 1rem;
         justify-content: left;
     }
     
     .item_formulaire2{
-        border: 1px solid rgb(10, 151, 233);
         justify-content: right;
     }
 }
@@ -469,7 +463,6 @@ body{
     .menu{
         text-align: center;
         background-color: #093348;
-        border: 1px solid white;
     }
     
     .barre_menu1{
@@ -517,7 +510,6 @@ body{
     .menu{
         text-align: center;
         background-color: #093348;
-        border: 1px solid white;
     }
     
     .barre_menu1{
@@ -544,13 +536,11 @@ body{
         display: inline-block;
         width: 48%;
         text-align: center;
-        border : 2px solid yellow;
         align-items: center;
     }
 
     .item_baby_faces{
         width: 30%;
-        border : 1px solid blue;
     }
 
     .mission{
@@ -565,7 +555,6 @@ body{
     .item_formulaire1, .item_formulaire2{
         display: flex;
         width: 95%;
-        border: 1px solid rgb(10, 151, 233);
         justify-content: center;
         gap: 1rem;
     }
@@ -585,7 +574,6 @@ body{
     .menu{
         text-align: center;
         background-color: #093348;
-        border: 1px solid white;
     }
     
     .barre_menu1{
@@ -614,7 +602,6 @@ body{
         display: inline-block;
         width: 32.75%;
         text-align: center;
-        border : 1px solid blue;
         align-items: center;
     }
 
@@ -626,7 +613,6 @@ body{
         display: inline-block;
         width: 48%;
         text-align: center;
-        border : 2px solid yellow;
         align-items: center;
     }
 
@@ -634,7 +620,6 @@ body{
         display: inline-block;
         width: 100%;
         text-align: center;
-        border : 1px solid blue;
         align-items: center;
     }
 }
