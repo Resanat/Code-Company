@@ -282,7 +282,7 @@ body{
     color: white;
  }
 
-
+/* FORMULAIRE */
  .contenu_formulaire{
     display: flex;
     flex-direction: row;
@@ -351,18 +351,32 @@ body{
     margin-right: auto;
 }
 
-.item_formulaire{
-    display: inline-block;
+/* CONTENU RESEAUX SOCIAUX */
+.contenu_formulaire_elargi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+.item_formulaire1, .item_formulaire2{
+    display: flex;
     width: 49.5%;
+    border: 1px solid rgb(10, 151, 233);
+    justify-content: center;
+    gap: 1rem;
 }
 
 .item_formulaire_reseaux{
     display: inline-block;
-    margin: 0 10px 0 10px;
     height: 50px;
+    border: 1px solid greenyellow;
 }
 
 .texte_reseaux_sociaux{
+    margin-top: 8px;
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 26px;
@@ -383,14 +397,17 @@ body{
 }
 
 .copyright{
+    margin-top: 18px;
     font-size: 12px;
     line-height: 16px;
     color: #b4d1e1;
     font-weight: 400;
     font-family: "Roboto";
     text-align: center;
-    text-align: center;
 }
+/* CONTENU RESEAUX SOCIAUX */
+
+
 
 /*****************/
 /* MEDIA QUERIES */
@@ -406,6 +423,44 @@ body{
         margin-left: auto; 
         margin-right: auto; 
     }
+
+    .menu{
+        text-align: center;
+        background-color: #093348;
+        border: 1px solid white;
+    }
+    
+    .barre_menu1{
+        flex: 0 0 45%;
+        justify-content: flex-start;
+    }
+
+    .barre_menu2{
+        flex: 0 0 55%;
+    }
+
+    .barre_menu2 li{
+        display: inline-block;
+        text-transform: uppercase;
+        font-family: 'robotobold';
+        padding: 1.2rem;
+    }
+
+    .pencil{
+        margin-top: 32px;
+        margin-left: 20px;
+    }
+
+    .item_formulaire1{
+        border: 1px solid rgb(10, 151, 233);
+        gap: 1rem;
+        justify-content: left;
+    }
+    
+    .item_formulaire2{
+        border: 1px solid rgb(10, 151, 233);
+        justify-content: right;
+    }
 }
 
 
@@ -419,14 +474,19 @@ body{
     
     .barre_menu1{
         flex: 0 0 30%;
+        justify-content: flex-start;
     }
 
     .barre_menu2{
         flex: 0 0 70%;
     }
 
+    .barre_menu2 li{
+        padding: 1.1rem;
+    }
+
     .contenu_portfolio{
-        height: 750px;
+        height: 800px;
     }
 
     .item_baby_faces{
@@ -443,6 +503,14 @@ body{
         align-items: center;
     }
 
+    .contenu_restreint_formulaire_footer{
+        margin-bottom: 120px;
+    }
+    
+    .item_formulaire1, .item_formulaire2{
+        gap: 0.3rem;
+    }
+}
 
 @media screen and (max-width: 768px){
 
@@ -465,7 +533,75 @@ body{
     }
 
     .contenu_baby_faces{
+        height: 680px;
+    }
+
+    .contenu_portfolio{
         height: 800px;
+    }
+
+     .item_portfolio{
+        display: inline-block;
+        width: 48%;
+        text-align: center;
+        border : 2px solid yellow;
+        align-items: center;
+    }
+
+    .item_baby_faces{
+        width: 30%;
+        border : 1px solid blue;
+    }
+
+    .mission{
+        margin-top: 5px;
+        font-size: 9px;
+    }
+
+    .contenu_formulaire{
+        height: 794px;
+    }
+
+    .item_formulaire1, .item_formulaire2{
+        display: flex;
+        width: 95%;
+        border: 1px solid rgb(10, 151, 233);
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .contenu_restreint_formulaire_footer{
+        margin-bottom: 120px;
+    }
+    
+    .item_formulaire1, .item_formulaire2{
+        gap: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    
+    .menu{
+        text-align: center;
+        background-color: #093348;
+        border: 1px solid white;
+    }
+    
+    .barre_menu1{
+        flex: 0 0 10%;
+    }
+
+    .barre_menu2{
+        flex: 0 0 90%;
+    }
+
+    .barre_menu2 li{
+        padding: 0.97rem;
+    }
+
+    .contenu_baby_faces{
+        height: 1050px;
     }
 
     .item_baby_faces{
@@ -477,7 +613,7 @@ body{
     }
 
     .contenu_portfolio{
-        height: 750px;
+        height: 800px;
     }
 
      .item_portfolio{
@@ -495,14 +631,4 @@ body{
         border : 1px solid blue;
         align-items: center;
     }
-
- 
-    
-
-
-
-
-
-
-    
 }
